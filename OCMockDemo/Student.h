@@ -13,4 +13,5 @@
 -(NSString*)hello;
 -(NSString*)haveFun:(NSString*)something drive:(NSString*)drive;
 -(void)swimming:(bool)alone;
+-(void)publicMoney;
 @end

@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2619DFD12048D48A0004922D /* HttpToolMock.m in Sources */ = {isa = PBXBuildFile; fileRef = 2619DFD02048D48A0004922D /* HttpToolMock.m */; };
+		2619DFD42048D4980004922D /* HttpTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 2619DFD32048D4980004922D /* HttpTool.m */; };
 		267EAF972040F841006F16FB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 267EAF962040F841006F16FB /* AppDelegate.m */; };
 		267EAF9A2040F841006F16FB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 267EAF992040F841006F16FB /* ViewController.m */; };
 		267EAF9D2040F841006F16FB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 267EAF9B2040F841006F16FB /* Main.storyboard */; };
@@ -17,6 +19,7 @@
 		267EAFC62040F859006F16FB /* libOCMock.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 267EAFC52040F859006F16FB /* libOCMock.a */; };
 		267EAFC92040F8F0006F16FB /* Student.m in Sources */ = {isa = PBXBuildFile; fileRef = 267EAFC82040F8F0006F16FB /* Student.m */; };
 		26CCD943204501F1007D8EA2 /* BaseTestCase.m in Sources */ = {isa = PBXBuildFile; fileRef = 26CCD942204501F1007D8EA2 /* BaseTestCase.m */; };
+		26CCD94520450388007D8EA2 /* StudentMock.m in Sources */ = {isa = PBXBuildFile; fileRef = 26CCD94420450388007D8EA2 /* StudentMock.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -30,6 +33,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2619DFD02048D48A0004922D /* HttpToolMock.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HttpToolMock.m; sourceTree = "<group>"; };
+		2619DFD22048D4980004922D /* HttpTool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HttpTool.h; sourceTree = "<group>"; };
+		2619DFD32048D4980004922D /* HttpTool.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HttpTool.m; sourceTree = "<group>"; };
 		267EAF922040F841006F16FB /* OCMockDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OCMockDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		267EAF952040F841006F16FB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		267EAF962040F841006F16FB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -58,6 +64,7 @@
 		267EAFC82040F8F0006F16FB /* Student.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Student.m; sourceTree = "<group>"; };
 		26CCD941204501F1007D8EA2 /* BaseTestCase.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BaseTestCase.h; sourceTree = "<group>"; };
 		26CCD942204501F1007D8EA2 /* BaseTestCase.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BaseTestCase.m; sourceTree = "<group>"; };
+		26CCD94420450388007D8EA2 /* StudentMock.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StudentMock.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,6 +118,8 @@
 				267EAFA42040F841006F16FB /* main.m */,
 				267EAFC72040F8F0006F16FB /* Student.h */,
 				267EAFC82040F8F0006F16FB /* Student.m */,
+				2619DFD22048D4980004922D /* HttpTool.h */,
+				2619DFD32048D4980004922D /* HttpTool.m */,
 			);
 			path = OCMockDemo;
 			sourceTree = "<group>";
@@ -123,6 +132,8 @@
 				267EAFB32040F850006F16FB /* Info.plist */,
 				26CCD941204501F1007D8EA2 /* BaseTestCase.h */,
 				26CCD942204501F1007D8EA2 /* BaseTestCase.m */,
+				26CCD94420450388007D8EA2 /* StudentMock.m */,
+				2619DFD02048D48A0004922D /* HttpToolMock.m */,
 			);
 			path = OCMockDemoTests;
 			sourceTree = "<group>";
@@ -259,6 +270,7 @@
 				267EAFA52040F841006F16FB /* main.m in Sources */,
 				267EAF972040F841006F16FB /* AppDelegate.m in Sources */,
 				267EAFC92040F8F0006F16FB /* Student.m in Sources */,
+				2619DFD42048D4980004922D /* HttpTool.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -267,6 +279,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				267EAFB22040F850006F16FB /* OCMockDemoTests.m in Sources */,
+				2619DFD12048D48A0004922D /* HttpToolMock.m in Sources */,
+				26CCD94520450388007D8EA2 /* StudentMock.m in Sources */,
 				26CCD943204501F1007D8EA2 /* BaseTestCase.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

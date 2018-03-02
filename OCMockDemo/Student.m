@@ -22,4 +22,11 @@
 -(void)swimming:(bool)alone{
     
 }
+
+-(void)publicMoney{
+    NSLog(@"大家都知道我有10块！");
+}
+-(void)privateMoney{
+    NSLog(@"我的私房钱有100块！");
+}
 @end
